@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ExampleSite</title>
+    <title>Boyoon&#39;s blog</title>
     <link>https://examplesite.com/</link>
-    <description>Recent content on ExampleSite</description>
+    <description>Recent content on Boyoon&#39;s blog</description>
     <image>
-      <title>ExampleSite</title>
+      <title>Boyoon&#39;s blog</title>
       <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://examplesite.com/posts/my-first-post/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>Basics of Julia</title>
+      <link>https://examplesite.com/posts/02/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/my-first-post/</guid>
-      <description>Desc Text.</description>
+      <guid>https://examplesite.com/posts/02/</guid>
+      <description>This post is about basics of Julia. This is an exercise before running the simulation for my job market paper using Julia</description>
     </item>
     
     <item>
-      <title>My 1st post</title>
-      <link>https://examplesite.com/posts/my-second-post/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>Go Language</title>
+      <link>https://examplesite.com/posts/03/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/my-second-post/</guid>
+      <guid>https://examplesite.com/posts/03/</guid>
+      <description>This post is about basics of Julia. This is an exercise before running the simulation for my job market paper using Julia</description>
+    </item>
+    
+    <item>
+      <title>Perfect Prediction?</title>
+      <link>https://examplesite.com/posts/01/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/posts/01/</guid>
       <description>Desc Text.</description>
     </item>
     

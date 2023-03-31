@@ -75,9 +75,9 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >
-        Welcome to Boyoon's learning blogs. 
+        Welcome to Boyoon's blog. 
 
-        - Below are the short posts about artificial intelligence, machine learning, reinforcement learning, and probably some other hot topics related to empirical industrial organization. 
+        - Below are the short posts about programming, artificial intelligence, machine learning, reinforcement learning, and probably some other topics related to empirical industrial organization. 
 
         - The posts are daily updated so stay tuned!
 
