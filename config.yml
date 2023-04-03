@@ -45,11 +45,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "favicon.ico"
-    favicon16x16: "favicon.ico"
-    favicon32x32: "favicon.ico"
-    apple_touch_icon: "favicon.ico"
-    safari_pinned_tab: "favicon.ico"
+    favicon: "/favicons/favicon.ico"
+    favicon16x16: "/favicons/favicon.ico"
+    favicon32x32: "/favicons/favicon.ico"
+    apple_touch_icon: "/favicons/favicon.ico"
+    safari_pinned_tab: "/favicons/favicon.ico"
 
   label:
     text: "Home"
@@ -59,9 +59,9 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: Boyoon's Blog
+    subtitle: "I use this channel for my learning log about economics and programming."
+    imageUrl: "img/chang_photo2.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -123,14 +123,18 @@ menu:
       name: archives
       url: /archives/
       weight: 10
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: bowebsite
       name: Boyoon's Website
       url: https://www.boyoonchang.com
-      weight: 30
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
