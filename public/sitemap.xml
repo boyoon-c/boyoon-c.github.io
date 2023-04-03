@@ -2,38 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://examplesite.com/</loc>
+    <loc>https://boyoon-c.github.io/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/posts/04/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/posts/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/tags/stochastic-process/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/tags/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/tags/ai/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/tags/job-secure/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/posts/05/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/tags/modules/</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/03/</loc>
+    <loc>https://boyoon-c.github.io/posts/06/</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <loc>https://boyoon-c.github.io/tags/dataframe/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/stochastic-process/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <loc>https://boyoon-c.github.io/tags/filter/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/04/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <loc>https://boyoon-c.github.io/tags/for-loop/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+    <loc>https://boyoon-c.github.io/posts/03/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/02/</loc>
+    <loc>https://boyoon-c.github.io/tags/rdata/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boyoon-c.github.io/posts/02/</loc>
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/julia/</loc>
+    <loc>https://boyoon-c.github.io/tags/julia/</loc>
     <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/posts/01/</loc>
+    <loc>https://boyoon-c.github.io/posts/01/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/tags/prediction/</loc>
+    <loc>https://boyoon-c.github.io/tags/prediction/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://examplesite.com/archives/</loc>
+    <loc>https://boyoon-c.github.io/archives/</loc>
   </url><url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>https://boyoon-c.github.io/categories/</loc>
   </url>
 </urlset>

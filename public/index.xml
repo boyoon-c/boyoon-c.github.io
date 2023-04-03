@@ -2,49 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Boyoon&#39;s blog</title>
-    <link>https://examplesite.com/</link>
+    <link>https://boyoon-c.github.io/</link>
     <description>Recent content on Boyoon&#39;s blog</description>
     <image>
       <title>Boyoon&#39;s blog</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>For loop, RData, filter, and wsample in Julia</title>
-      <link>https://examplesite.com/posts/03/</link>
-      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <title>Optimization Using Julia</title>
+      <link>https://boyoon-c.github.io/posts/04/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/03/</guid>
-      <description>This post is about stochastic processes and how to express it using Julia</description>
+      <guid>https://boyoon-c.github.io/posts/04/</guid>
+      <description>This post is about optimization using Julia</description>
     </item>
     
     <item>
-      <title>Stochastic Processes Using Julia</title>
-      <link>https://examplesite.com/posts/04/</link>
+      <title>What job might not be replaceable by AI? </title>
+      <link>https://boyoon-c.github.io/posts/05/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/05/</guid>
+      <description>This post explores jobs that might be hard to be replaced by AI</description>
+    </item>
+    
+    <item>
+      <title>Modules in Julia</title>
+      <link>https://boyoon-c.github.io/posts/06/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/04/</guid>
-      <description>This post is about stochastic processes and how to express it using Julia</description>
+      <guid>https://boyoon-c.github.io/posts/06/</guid>
+      <description>Desc</description>
+    </item>
+    
+    <item>
+      <title>For loop, RData, filter, and wsample in Julia</title>
+      <link>https://boyoon-c.github.io/posts/03/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/03/</guid>
+      <description>This post is using for loop, importing R object into Julia, using filter to DataFrame-type-object, using wsample to draw values from known probability distribution</description>
     </item>
     
     <item>
       <title>Basics of Julia</title>
-      <link>https://examplesite.com/posts/02/</link>
+      <link>https://boyoon-c.github.io/posts/02/</link>
       <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/02/</guid>
+      <guid>https://boyoon-c.github.io/posts/02/</guid>
       <description>This post is about basics of Julia. This is an exercise before running the simulation for my job market paper using Julia</description>
     </item>
     
     <item>
       <title>Perfect Prediction?</title>
-      <link>https://examplesite.com/posts/01/</link>
+      <link>https://boyoon-c.github.io/posts/01/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/posts/01/</guid>
-      <description>Desc Text.</description>
+      <guid>https://boyoon-c.github.io/posts/01/</guid>
+      <description>Some random thoughts</description>
     </item>
     
     
