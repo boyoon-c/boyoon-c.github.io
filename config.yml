@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://boyoon-c.github.io/"
 title: Boyoon's blog
 paginate: 5
 theme: PaperMod
@@ -22,7 +22,7 @@ params:
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "March 1, 2023"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -45,11 +45,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "./content/posts/img/favicon.ico"
+    favicon16x16: "./content/posts/img/favicon.ico"
+    favicon32x32: "./content/posts/img/favicon.ico"
+    apple_touch_icon: "./content/posts/img/favicon.ico"
+    safari_pinned_tab: "./content/posts/img/favicon.ico"
 
   label:
     text: "Home"
