@@ -126,3 +126,13 @@ x0=[0.0, 0.0]
 res=optimize(f2, x0)
 minimum(res)
 Optim.minimizer(res)
+
+"""
+    Comprehension
+"""
+
+x = LinRange(1,10,10)
+x = rand(8)
+# moving average
+[ x[i-1]+x[i] for i=2:length(x)-1 ]
+[ i + j + k for i=1:3, j=1:3, k=1:3]
