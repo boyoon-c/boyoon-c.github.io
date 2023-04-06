@@ -10,7 +10,18 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic programming (1)</title>
+      <link>https://boyoon-c.github.io/posts/09/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/09/</guid>
+      <description>In finite Markov Decision Process, we have three sets, a set of states, a set of actions, and a set of rewards. Suppose that \(R_t\) and \(S_t\), which represent rewards and states at a given time \(t\) have well defined discrete probability distributions that only depends on previous action and state.
+$$ p(s^\prime, r | s, a) =\Pr(S_t=s^\prime, R_t=r | S_{t-1}=s, A_{t-1}=a) $$
+$$ \begin{aligned} v_\pi(s) &amp;amp;= \mathbb{E}_\pi[G_t | S_t = s] \end{aligned} $$</description>
+    </item>
+    
     <item>
       <title>Map and broadcast</title>
       <link>https://boyoon-c.github.io/posts/08/</link>
