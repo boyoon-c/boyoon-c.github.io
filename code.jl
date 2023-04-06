@@ -136,3 +136,25 @@ x = rand(8)
 # moving average
 [ x[i-1]+x[i] for i=2:length(x)-1 ]
 [ i + j + k for i=1:3, j=1:3, k=1:3]
+
+map(x->x+2, 1:10)
+[ x + 2 for x=1:10]
+
+map((x, y)->x-2*y+2, 1:10, 11:20)
+map((x,y)->x-y + 2, 1:10, -10:-1)
+print(-10:-1)
+
+## punctuation 
+T1=[1;2;3]
+T2=[3;4;5]
+T1 <: T2
+Int8 <: Float64
+Float64 <: Int8 
+d=Dict(:a=>1, :b=>2)
+d[:a]
+
+a=[1,2]
+b=[1 2 ; 3 4]
+broadcast(x->x+2, b)
+broadcast(+, a, b)
+map(x->x+2, b)
