@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: Boyoon's Blog
-    subtitle: "I use this channel for my learning notes about economics and programming."
+    subtitle: "I use this channel for my learning notes about economics and programming. I also post some random thoughts."
     imageUrl: "img/chang_photo2.jpg"
     imageWidth: 120
     imageHeight: 120
