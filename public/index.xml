@@ -10,7 +10,17 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic programming (2) Rewards</title>
+      <link>https://boyoon-c.github.io/posts/11/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/11/</guid>
+      <description>Rewards The goal of the agent is to maximize the cumulative sum of the rewards of the long-run. The rewards could be arbitrarily chosen number that summarizes how one wants the agent to behave under specific state, action, and subsequent state.
+The rewards function, formally represented by \(R(s)\) or \(R(s,a)\), or \(R(s, a, s^\prime)\) can depend on current state, the subsequent state as well as the action taken by the agent taken in the current state.</description>
+    </item>
+    
     <item>
       <title>Some random thoughts</title>
       <link>https://boyoon-c.github.io/posts/10/</link>
@@ -21,14 +31,14 @@
     </item>
     
     <item>
-      <title>Dynamic programming (1)</title>
+      <title>Dynamic programming (1) MDP</title>
       <link>https://boyoon-c.github.io/posts/09/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://boyoon-c.github.io/posts/09/</guid>
-      <description>In finite Markov Decision Process, we have three sets, a set of states, a set of actions, and a set of rewards. Suppose that \(R_t\) and \(S_t\), which represent rewards and states at a given time \(t\) have well defined discrete probability distributions that only depends on previous action and state.
-$$ p(s^\prime, r | s, a) =\Pr(S_t=s^\prime, R_t=r | S_{t-1}=s, A_{t-1}=a) $$
-$$ \begin{aligned} v_\pi(s) &amp;amp;= \mathbb{E}_\pi[G_t | S_t = s] \end{aligned} $$</description>
+      <description>The agent and the environment In finite Markov Decision Process (MDP), we have three sets, a set of states, a set of actions, and a set of rewards.
+The learner or decision maker is called agent and the outside system that the agent interacts with is called environment. Everyperiod, the agent takes actions and correspondingly the environment reacts to produce new states to the agent.
+Each period, the environment presents \(S_t\) from a set \( S\).</description>
     </item>
     
     <item>
