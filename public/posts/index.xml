@@ -10,7 +10,26 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic programming (4) Example</title>
+      <link>https://boyoon-c.github.io/posts/13/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/13/</guid>
+      <description>Consider a simple consumption-saving model, where action (a) is defined by the amount of savings each period, state (s) defined by the current stock, reward be the utility which depends on consumption (c=s-a). Suppose that state is updated where the output is drawn from a uniform distribution on {0, . . . , B}. Let the global upper bound of storage be M.
+State space State space is \n = M+B+1\) dimension.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic programming (3) Discrete DPs</title>
+      <link>https://boyoon-c.github.io/posts/12/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/12/</guid>
+      <description>Let \(s_t\) denotes the state variable, \(a_t\) denotes the action, \(\beta\) denotes a discount factor. Note that \(r(a_t, s_t)\) can be interpreted as a current reward that is a function of the current action and current state.</description>
+    </item>
+    
     <item>
       <title>Dynamic programming (2) Rewards</title>
       <link>https://boyoon-c.github.io/posts/11/</link>

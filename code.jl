@@ -158,3 +158,84 @@ b=[1 2 ; 3 4]
 broadcast(x->x+2, b)
 broadcast(+, a, b)
 map(x->x+2, b)
+
+
+"""
+Growth model example
+"""
+
+"""
+a ={consume, store}
+s = stock 
+action a c = s-a 
+storage limited by upper bound M 
+u(c) = c^α (reward function)
+output drawon from discrete uniform distribution 
+s' = a + U ( state update)
+S = {0, ..., M + B }
+A(s) = {0, ..., min(s, M)}
+"""
+
+
+using BenchmarkTools, Plots, QuantEcon, Parameters
+
+SimpleOG=@with_kw (B = 10, M=5, α=0.5, β=0.9)
+
+function transition_matrices(g)
+    (B, M, α, β) = g
+    u(c) = c^α
+    n = B + M + 1
+    m = M + 1
+
+    R = zeros(n, m)
+    Q = zeros(n, m, n)
+
+    for a in 0:M
+        Q[:, a + 1, (a:(a + B)) .+ 1] .= 1 / (B + 1)
+        for s in 0:(B + M)
+            R[s + 1, a + 1] = (a≤s ? u(s - a) : -Inf)
+        end
+    end
+
+    return (Q = Q, R = R)
+end
+
+g = SimpleOG();
+Q, R = transition_matrices(g);
+Q
+
+function verbose_matrices(g)
+    (;B, M, α, β) = g
+    u(c) = c^α
+
+    #Matrix dimensions. The +1 is due to the 0 state.
+    n = B + M + 1
+    m = M + 1
+
+    R = fill(-Inf, n, m) #Start assuming nothing is feasible
+    Q = zeros(n,m,n) #Assume 0 by default
+
+    #Create the R matrix
+    #Note: indexing into matrix complicated since Julia starts indexing at 1 instead of 0
+    #but the state s and choice a can be 0
+    for a in 0:M
+         for s in 0:(B + M)
+            if a <= s #i.e. if feasible
+                R[s + 1, a + 1] = u(s - a)
+            end
+        end
+    end
+
+    #Create the Q multi-array
+    for s in 0:(B+M) #For each state
+        for a in 0:M #For each action
+            for sp in 0:(B+M) #For each state next period
+                if( sp >= a && sp <= a + B) # The support of all realizations
+                    Q[s + 1, a + 1, sp + 1] = 1 / (B + 1) # Same prob of all
+                end
+            end
+            @assert sum(Q[s + 1, a + 1, :]) ≈ 1 #Optional check that matrix is stochastic
+         end
+    end
+    return (Q = Q, R = R)
+end
