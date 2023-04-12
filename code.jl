@@ -239,3 +239,11 @@ function verbose_matrices(g)
     end
     return (Q = Q, R = R)
 end
+
+using DataFrames
+df = DataFrame(A=1:2:1000, 
+    B= repeat(1:10, inner=50), 
+    C= 1:500)
+
+first(df, 10)
+last(df, 10)

@@ -12,6 +12,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DataFrames.jl</title>
+      <link>https://boyoon-c.github.io/posts/14/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/14/</guid>
+      <description>Create dataframe To create a dataframe, simply use DataFrame function after loding DataFrames.jl.
+Following code produces a dataframe composed of three variables, A, B, and C, each of which has 500 rows. Each row of column A increments by 2 starting from integer 1. Column B repeats 50 times of each integer starting from 1. Coumn C lists integers from 1 to 500.
+using DataFrames df = DataFrame(A=1:2:1000, B= repeat(1:10, inner=50), C= 1:500) first, last The first and last functions act as head and tail function in R, which allow us to view the first or the last couple of rows of the dataset.</description>
+    </item>
+    
+    <item>
       <title>Dynamic programming (4) Example</title>
       <link>https://boyoon-c.github.io/posts/13/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
