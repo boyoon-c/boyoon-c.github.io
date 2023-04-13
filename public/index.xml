@@ -10,9 +10,19 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DataFrames.jl</title>
+      <title>DataFrames.jl (2)</title>
+      <link>https://boyoon-c.github.io/posts/15/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/15/</guid>
+      <description>Taking a Subset We can subset a dataframe using index. For example we can subset specific columns and rows by following codes.
+# column subset (subset df to only include column A and C) df[:, [:A, :C]] # row subset (subset df to only include 1st, 3rd, and 5th rows) df[[1,3,5], :] We could also use some selectors such as Not, Between, Colsand All. Following code removes columns whose names match r&amp;quot;x&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>DataFrames.jl (1)</title>
       <link>https://boyoon-c.github.io/posts/14/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       

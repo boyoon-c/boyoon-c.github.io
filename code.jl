@@ -257,3 +257,7 @@ df
 df[:, r"x"]
 df[:, Not(r"x")]
 df[:, Not(:A)][1:10, :]
+df[(df.A .> 100), :]
+
+# subsetting functions 
+subset(df, :A=>a-> a .<10)
