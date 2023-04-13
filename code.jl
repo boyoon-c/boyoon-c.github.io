@@ -247,3 +247,13 @@ df = DataFrame(A=1:2:1000,
 
 first(df, 10)
 last(df, 10)
+
+df[[1,3,5], :]
+df[:, [:A, :C]]
+df[:, :A]
+df[:, :x1].=0
+df[:, :x2].=1
+df
+df[:, r"x"]
+df[:, Not(r"x")]
+df[:, Not(:A)][1:10, :]
