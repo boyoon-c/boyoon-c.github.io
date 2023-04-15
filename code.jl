@@ -241,7 +241,8 @@ function verbose_matrices(g)
 end
 
 using DataFrames
-df = DataFrame(A=1:2:1000, 
+df = DataFrame(
+    A=1:2:1000, 
     B= repeat(1:10, inner=50), 
     C= 1:500)
 
@@ -261,3 +262,22 @@ df[(df.A .> 100), :]
 
 # subsetting functions 
 subset(df, :A=>a-> a .<10)
+
+# rename 
+df1=select(df,  :A => :a, :B=>:b )
+first(df1, 2)
+
+select(df1, :a, :b, [:a, :b]=>ByRow((x1, x2)-> x1/x2) => :z  )
+
+using BenchmarkTools, LinearAlgebra, Plots, QuantEcon, Statistics
+using SparseArrays
+using Parameters
+
+SimpleOG = @with_kw (B = 10, M = 5, α = 0.5, β = 0.9)
+g = SimpleOG()
+Q, R = transition_matrices(g);
+ddp=DiscreteDP(R, Q, g.β)
+results=solve(ddp, PFI)
+results.v
+results.num_iter
+results.sigma .- 1
