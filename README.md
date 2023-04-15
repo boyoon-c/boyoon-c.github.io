@@ -2,4 +2,4 @@
 
 ## Technologies used 
 - Hugo PaperMod
-- Github pag
+- Github page
