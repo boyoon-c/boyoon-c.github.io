@@ -23,11 +23,11 @@
     <item>
       <title>Dynamic programming (4) Example</title>
       <link>https://boyoon-c.github.io/posts/13/</link>
-      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://boyoon-c.github.io/posts/13/</guid>
       <description>Consider a simple consumption-saving model, where action (a) is defined by the amount of savings each period, state (s) defined by the current stock, reward be the utility which depends on consumption (c=s-a). Suppose that state is updated where the output is drawn from a uniform distribution on {0, . . . , B}. Let the global upper bound of storage be M.
-State space State space is \n = M+B+1\) dimension.</description>
+State space State space is \(n = M+B+1\) dimension.</description>
     </item>
     
     <item>

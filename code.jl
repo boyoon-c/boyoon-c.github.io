@@ -82,6 +82,8 @@ end
 
 
 using Gadfly, Statistics
+using Pkg
+Pkg.rm("Plots")
 plot(x=1:100, y=simulateAR1(0.8, 1., 0., 0, 100), Geom.line())
 Gadfly.push_theme(Theme(background_color=colorant"white"))
 plot(x->x^2, 0, 100)
@@ -177,7 +179,7 @@ A(s) = {0, ..., min(s, M)}
 """
 
 
-using BenchmarkTools, Plots, QuantEcon, Parameters
+using BenchmarkTools, QuantEcon, Parameters
 
 SimpleOG=@with_kw (B = 10, M=5, α=0.5, β=0.9)
 
@@ -281,3 +283,10 @@ results=solve(ddp, PFI)
 results.v
 results.num_iter
 results.sigma .- 1
+fieldnames(typeof(results))
+
+using Gadfly
+plot(x=1:16, y=results.v, Geom.line(), 
+    Geom.point(), 
+    Guide.ylabel("value"), 
+    Guide.xlabel("state"))
