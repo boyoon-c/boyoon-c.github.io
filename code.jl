@@ -298,10 +298,21 @@ x, y = symbols("x, y")
 p1=a*x^2 + b*x + c
 p2 = x + 0.5*y + 1 
 typeof(p1)
-p1.coeff(x)
+p1.coeff(1)
 p2.coeff(y)
 p2.coeff(1)
-p = [2*x+ 3*y+4; 1*x+5*y+6]
+p = [2*x+ 3*y; 1*x+5*y+6]
+θ=zeros(2, length(p))
+M=length(p)
+for i in 1:M
+    θ[i, 1]=p[i].coeff(x)
+    θ[i, 2]=p[i].coeff(y) 
+end 
+θ*[x,  y]
+p
+
+p[1].coeff(x)
+c₁
 c₁= [p[i].coeff(x) for i in 1:2]
 c₂=[p[i].coeff(y) for i in 1:2]
 c=[c₁ c₂]
