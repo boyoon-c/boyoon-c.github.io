@@ -290,3 +290,22 @@ plot(x=1:16, y=results.v, Geom.line(),
     Geom.point(), 
     Guide.ylabel("value"), 
     Guide.xlabel("state"))
+
+
+using SymPy
+a,b,c,x = symbols("a, b, c, x")
+x, y = symbols("x, y")
+p1=a*x^2 + b*x + c
+p2 = x + 0.5*y + 1 
+typeof(p1)
+p1.coeff(x)
+p2.coeff(y)
+p2.coeff(1)
+p = [2*x+ 3*y+4; 1*x+5*y+6]
+c₁= [p[i].coeff(x) for i in 1:2]
+c₂=[p[i].coeff(y) for i in 1:2]
+c=[c₁ c₂]
+c*[1 , 2]
+θ=[1, -4]
+c*θ
+    

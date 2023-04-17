@@ -10,7 +10,19 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SymPy.jl and Reshape Matrix</title>
+      <link>https://boyoon-c.github.io/posts/17/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/17/</guid>
+      <description>SymPy.jl When functions are linear in parameters, we can decompose a matrix of polynomials into a matrix of coefficients and a matrix of variables. To achieve this, we can use the SymPy package.
+First we need to ensure that Julia recognizes variables and treats them as symbols.
+using SymPy x, y = symbols(&amp;#34;x, y&amp;#34;) Then we can simply invoke thecoeff() method to extract coefficients from the polynomials.
+p = x + 0.</description>
+    </item>
+    
     <item>
       <title>DataFrames.jl (3)</title>
       <link>https://boyoon-c.github.io/posts/16/</link>
