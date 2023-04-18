@@ -12,6 +12,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI and Workforce Competition</title>
+      <link>https://boyoon-c.github.io/posts/18/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/18/</guid>
+      <description>Some argue that those who fail to utilize AI cannot keep up with their competitors. But is that necessarily true?
+To answer this question, we need to consider how AI affects workforce competition. Suppose that two candidates, one with high-skills (referred to as worker A) and the other with low-skills (referred to as worker B) are competing for a job at some company C. Now that AI is readily available to both workers, they would both use it, assuming that AI improves their competitiveness.</description>
+    </item>
+    
+    <item>
       <title>SymPy.jl</title>
       <link>https://boyoon-c.github.io/posts/17/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
