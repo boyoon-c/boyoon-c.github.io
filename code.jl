@@ -253,6 +253,8 @@ last(df, 10)
 
 df[[1,3,5], :]
 df[:, [:A, :C]]
+select(df, :A)
+df[:, [:A]]
 df[:, :A]
 df[:, :x1].=0
 df[:, :x2].=1
@@ -270,6 +272,15 @@ df1=select(df,  :A => :a, :B=>:b )
 first(df1, 2)
 
 select(df1, :a, :b, [:a, :b]=>ByRow((x1, x2)-> x1/x2) => :z  )
+
+select(df, [:A, :B].=>[:a, :b])
+
+vec=[1,2,3,4,5]
+
+vec .^3 |> sum
+[vec[i]^3 for i in 1:5] |>sum
+vec |> x->x.^3|>x->sum(x)
+
 
 using BenchmarkTools, LinearAlgebra, Plots, QuantEcon, Statistics
 using SparseArrays
@@ -319,4 +330,5 @@ c=[c₁ c₂]
 c*[1 , 2]
 θ=[1, -4]
 c*θ
-    
+
+
