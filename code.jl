@@ -332,3 +332,18 @@ c*[1 , 2]
 c*θ
 
 
+for i in 1:2:10
+    println(i)
+end
+
+for i ∈ 1:2:10
+    println(i)
+end 
+for i = 1:2:10
+    println(i)
+end 
+for i = eachindex(1:2:10)
+    println(i)
+end 
+
+
