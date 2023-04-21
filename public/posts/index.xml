@@ -10,7 +10,29 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantitative Economics with Julia</title>
+      <link>https://boyoon-c.github.io/posts/19/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/19/</guid>
+      <description>for loop in, ∈, = Below three for loops return the same output. Note that in, ∈, = can be used interchangeably to indicate that i loops over the following array, 1:2:10 which indicates that the array ranges from 1 to 10 with an increment of 2.
+for i in 1:2:10 println(i) end for i ∈ 1:2:10 println(i) end for i = 1:2:10 println(i) end Output:
+1 3 5 7 9 eachindex I also introduce in this post eachindex, which returns the index of a given vector.</description>
+    </item>
+    
+    <item>
+      <title>DataFrames.jl (3) and Pipe</title>
+      <link>https://boyoon-c.github.io/posts/16/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/16/</guid>
+      <description>Selecting and transforming columns When selecting variables of a data frame, we do add : to indicate that it&amp;rsquo;s a variable name. Thus for example, if we want to select column with variable x, we use :x inside select().
+First let&amp;rsquo;s construct some 500 by 3 dimensional data frame called df that contains three columns each of which has name of A, B, and C.
+using DataFrames df = DataFrame( A=1:2:1000, B= repeat(1:10, inner=50), C= 1:500) Each of below codes produces 500 by 1 dataframe, a data frame that only contains column A.</description>
+    </item>
+    
     <item>
       <title>AI and Workforce Competition</title>
       <link>https://boyoon-c.github.io/posts/18/</link>
@@ -31,15 +53,6 @@ To answer this question, we need to consider how AI affects workforce competitio
 First we need to ensure that Julia recognizes variables and treats them as symbols.
 using SymPy x, y = symbols(&amp;#34;x, y&amp;#34;) Then we can simply invoke thecoeff() method to extract coefficients from the polynomials.
 p = x + 0.</description>
-    </item>
-    
-    <item>
-      <title>DataFrames.jl (3)</title>
-      <link>https://boyoon-c.github.io/posts/16/</link>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://boyoon-c.github.io/posts/16/</guid>
-      <description>Selecting and transforming columns </description>
     </item>
     
     <item>
