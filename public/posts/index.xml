@@ -10,7 +10,17 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matrix Decomposition</title>
+      <link>https://boyoon-c.github.io/posts/20/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/20/</guid>
+      <description>Matrix decomposition example Let N be the number of possible simulated paths, T be the number of time periods, and P be the number of parameters to estimate. For now, let&amp;rsquo;s suppose that N = 4, T=2 and P=2. Below is an example with T-by-N matrix. The rows indicates different time periods, and the columns indicate different simulated paths \(n \in \{1,2,3,4\} \). For example,
+$$ A = \begin{bmatrix} a_{11}\theta + b_{11}\rho &amp;amp; a_{12}\theta + b_{12}\rho &amp;amp; a_{13}\theta + b_{13}\rho &amp;amp; a_{14}\theta + b_{14}\rho \newline \beta(a_{21}\theta + b_{21}\rho) &amp;amp; \beta(a_{22}\theta + b_{22}\rho) &amp;amp; \beta(a_{23}\theta + b_{23}\rho) &amp;amp; \beta(a_{24}\theta + b_{24}\rho) \end{bmatrix} \newline $$ When n =1, $$ \begin{bmatrix} 1 &amp;amp; \beta \end{bmatrix} \begin{bmatrix} a_{11} &amp;amp; b_{11} \newline a_{21} &amp;amp; b_{21} \end{bmatrix} \begin{bmatrix} \theta \newline \rho \end{bmatrix} $$ When n =2, $$ \begin{bmatrix} 1 &amp;amp; \beta \end{bmatrix} \begin{bmatrix} a_{12} &amp;amp; b_{12} \newline a_{22} &amp;amp; b_{22} \end{bmatrix} \begin{bmatrix} \theta \newline \rho \end{bmatrix} $$ When n =3, $$ \begin{bmatrix} 1 &amp;amp; \beta \end{bmatrix} \begin{bmatrix} a_{13} &amp;amp; b_{13} \newline a_{23} &amp;amp; b_{23} \end{bmatrix} \begin{bmatrix} \theta \newline \rho \end{bmatrix} $$ When n =4, $$ \begin{bmatrix} 1 &amp;amp; \beta \end{bmatrix} \begin{bmatrix} a_{14} &amp;amp; b_{14} \newline a_{24} &amp;amp; b_{24} \end{bmatrix} \begin{bmatrix} \theta \newline \rho \end{bmatrix} $$</description>
+    </item>
+    
     <item>
       <title>Quantitative Economics with Julia</title>
       <link>https://boyoon-c.github.io/posts/19/</link>

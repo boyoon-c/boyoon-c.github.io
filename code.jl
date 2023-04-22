@@ -347,3 +347,31 @@ for i = eachindex(1:2:10)
 end 
 
 
+N=4
+T=2 
+P=2
+
+using SymPy
+a11, a12, a13, a14 = 1,2,3,4
+a21, a22, a23, a24 = 5,6,7,8
+b11, b12, b13, b14 = -1, -2, -3, -4
+b21, b22, b23, b24 = -5, -6, -7, -8
+
+θ, ρ = symbols("θ, ρ")
+A = [a11*θ + b11*ρ a12*θ + b12*ρ a13*θ + b13*ρ a14*θ + b14*ρ; 
+a21*θ + b21*ρ a22*θ + b22*ρ a23*θ + b23*ρ a24*θ + b24*ρ]
+Ψ=Array{Any}(undef, T, P, N) 
+
+# Ψ contains above written metrices for each n 
+for n in 1:N 
+    Ψ[:, :, n]=
+    hcat(
+        [A[t, n].coeff(θ) for t in 1:T],
+        [A[t, n].coeff(ρ) for t in 1:T]
+    )
+end
+Ψ
+β=0.95
+βm= [β^t for t in 1:T]
+1/N * reduce(+, Ψ[:,:, n] for n in 1:N )
+W = transpose(βm) .* 1/N * reduce(+, Ψ[:,:, n] for n in 1:N )
