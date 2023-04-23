@@ -375,3 +375,14 @@ end
 βm= [β^t for t in 1:T]
 1/N * reduce(+, Ψ[:,:, n] for n in 1:N )
 W = transpose(βm) .* 1/N * reduce(+, Ψ[:,:, n] for n in 1:N )
+
+
+x=2
+x=2;
+
+
+countries = ("Korea", "Japan", "China")
+for (index, country) in enumerate(countries) 
+    println("Country $(country) in index $(index)")
+end
+collect(enumerate(countries))[1][1]
