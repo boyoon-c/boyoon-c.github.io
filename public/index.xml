@@ -10,7 +10,29 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ephemeral</title>
+      <link>https://boyoon-c.github.io/posts/22/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/22/</guid>
+      <description>Though it is true that we all die at some point, we often forget this truth. Maybe because thinking about it makes us too sad, makes us too depressed, makes us too afraid or other times too reckless. So most of the times, we tend to live and make decisions as if we are immortal.
+Faced with the sudden deaths of our acquaintances is when this uncomfortable truth suddenly reveals itself, sticks its heavy head out, as if scolding us for overlooking their existence.</description>
+    </item>
+    
+    <item>
+      <title>Julia Essentials</title>
+      <link>https://boyoon-c.github.io/posts/21/</link>
+      <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/21/</guid>
+      <description>; We add ; to suppress output returned. For example let&amp;rsquo;s compare two codes with and without ; at the end. x=2 would return 2 in the console as an output while x=2; will not return anything in the console.
+enumerate() enumerate() returns both the index and the value of an element in an array.
+collect(enumerate(countries)) Output:
+(1, &amp;#34;Korea&amp;#34;) (2, &amp;#34;Japan&amp;#34;) (3, &amp;#34;China&amp;#34;) countries = (&amp;#34;Korea&amp;#34;, &amp;#34;Japan&amp;#34;, &amp;#34;China&amp;#34;) for (index, country) in enumerate(countries) println(&amp;#34;Country $(country) in index $(index)&amp;#34;) end Output:</description>
+    </item>
+    
     <item>
       <title>Matrix Decomposition</title>
       <link>https://boyoon-c.github.io/posts/20/</link>
