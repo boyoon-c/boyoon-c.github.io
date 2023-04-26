@@ -10,7 +10,21 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamics in One Dimension</title>
+      <link>https://boyoon-c.github.io/posts/23/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/23/</guid>
+      <description>Consider a law of motion for the Solow growth model, in which the trajectory of capital is determined non-linearly:
+$$ k_{t+1} = Ask_{t}^\alpha + (1-\delta)k_t $$
+Here \(k\) is capital stock, and \([A,s, \alpha, \delta] \) are positive parameters.
+The following code excerpts are from julia.quantecon.org.
+g(k;p) is a function that represents the capital transition function, given the parameter set p and argument k.
+g(k; p) = p.A * p.s * k^p.</description>
+    </item>
+    
     <item>
       <title>Ephemeral</title>
       <link>https://boyoon-c.github.io/posts/22/</link>

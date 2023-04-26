@@ -386,3 +386,39 @@ for (index, country) in enumerate(countries)
     println("Country $(country) in index $(index)")
 end
 collect(enumerate(countries))[1][1]
+
+function dynamic(x_in, slope, intercept)
+    x_out=slope*x_in + intercept
+    return x_out 
+end 
+
+
+
+p = (A=2, s=0.3, α=0.3, δ=0.4, xmin=0, xmax=4)
+
+g(k; p) = p.A * p.s * k^p.α + (1-p.δ)*k
+
+x = zeros(6)
+x[1]=2.0
+for t in 2:100
+    x[t]=g(x[t-1];p)
+end 
+
+
+plot(1:10, [1,2,3,4,5,6,7,8,9,10])
+plot!(1:10, 21:30)
+
+
+function ts_plot(f, xmin, xmax, x0; ts_length=6)
+    x = zeros(ts_length)
+    x[1] = x0
+    for t in 1:(ts_length-1)
+        x[t+1] = f(x[t])
+    end
+    plot(1:ts_length, x, ylim=(xmin, xmax), linecolor=:blue, lw=2, alpha=0.7)
+    scatter!(x, mc=:blue, alpha=0.7, legend=false)
+end
+
+using Plots 
+k0=0.25
+ts_plot(k -> g(k; p), p.xmin, p.xmax, k0)
