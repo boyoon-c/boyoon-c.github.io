@@ -422,3 +422,42 @@ end
 using Plots 
 k0=0.25
 ts_plot(k -> g(k; p), p.xmin, p.xmax, k0)
+
+
+a=0.9
+b=0.1
+c=0.5
+mu=-3.0
+v=0.6
+
+using StatsPlots 
+using Distributions
+
+sim_length=10
+x_grid=range(-5, 7, length=120)
+
+plt=plot() 
+for t in 1:sim_length 
+    mu = a * mu + b
+    v = a^2 * v + c^2
+    dist = Normal(mu, sqrt(v))
+    plot!(plt, x_grid, pdf.(dist,x_grid), 
+    label="\\psi_{$t}",
+    linealpha=0.7)
+end 
+plt
+
+function plot_density_seq(mu_0=-3.0, v_0=0.6; sim_length=60)
+    mu = mu_0
+    v = v_0
+    plt = plot()
+    for t in 1:sim_length
+        mu = a * mu + b
+        v = a^2 * v + c^2
+        dist = Normal(mu, sqrt(v))
+        plot!(plt, x_grid, pdf.(dist, x_grid), label=nothing, linealpha=0.5)
+    end
+    return plt
+end
+plot_density_seq()
+plot_density_seq(3.0)

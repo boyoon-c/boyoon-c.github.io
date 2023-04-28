@@ -10,7 +10,17 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AR(1) model</title>
+      <link>https://boyoon-c.github.io/posts/24/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/24/</guid>
+      <description>Suppose we have following AR(1) model (autoregressive model of order 1) defined by: $$ X_{t+1}=aX_t + b+ cW_{t+1} $$ where
+\(X_0\) and \(W_{t}\) are independent, [a,b,c] are scalar-valued parameters, the state space is \(\mathbb{R}\), the process \(W_{t}\) is independently distributed and standard normal, and initial condition \(X_0\) is drawn from the normal distribution of mean \(\mu_0\) and standard error of \(\nu_0\). Iterating backward from time \(t\), we have $$ X_t = a^tX_0 + b \sum_{j=0}^{t-1}a^j + c\sum_{j=0}^{t-1}a^jW_{t-j}, $$ which implies that \(X_t\) depends on parameter [a,b,c], initial condition \(X_0\), and the sequence of shocks from period 1 throughout t represented by \(W_1, \cdots, W_t\).</description>
+    </item>
+    
     <item>
       <title>Dynamics in One Dimension</title>
       <link>https://boyoon-c.github.io/posts/23/</link>
