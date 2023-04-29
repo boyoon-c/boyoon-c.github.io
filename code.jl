@@ -461,3 +461,31 @@ function plot_density_seq(mu_0=-3.0, v_0=0.6; sim_length=60)
 end
 plot_density_seq()
 plot_density_seq(3.0)
+
+
+d = Categorical([0.5, 0.3, 0.2])
+@show rand(d,5)
+@show pdf(d,1)
+
+@assert size([0.5, 0.3, 0.2])[1] == size([0.5, 0.3, 0.2])[2]
+function mc_sample_path(P; init=1, sample_size=1000)
+    @assert size(P)[1] == size(P)[2] # transition matrix should be a square matrix 
+    
+    # N be the number of rows of transition matrix (or the number of initial states)
+    N = size(P)[1]
+    # dists be the state transition probabiliteis for each initial state; for example dists[1] will be state-transition probabilities of state 1 transitioning to state 1 , 2, and 3 respectively
+    dists = [Categorical(P[i, :]) for i in 1:N]
+
+    X = fill(0, sample_size)
+    X[1] = init 
+
+    for t in 2:sample_size 
+        dist=dists[X[t-1]]
+        X[t]=rand(dist)
+    end 
+    return X 
+end 
+
+P=[0.4 0.6; 0.2 0.8]
+X = mc_sample_path(P, sample_size = 100_000)
+μ1 = count(X.==1)/length(X)
