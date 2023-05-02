@@ -489,3 +489,32 @@ end
 P=[0.4 0.6; 0.2 0.8]
 X = mc_sample_path(P, sample_size = 100_000)
 μ1 = count(X.==1)/length(X)
+
+mc=MarkovChain(P, ["unemployed", "employed"])
+
+
+function mccallbellmanmap(v,  w,p,c,β)
+
+    v_reject = c + β * dot(p,v) 
+    v_accept = w/(1-β)
+    
+
+    v_out = max.(v_reject,v_accept)
+
+    S = length(w)
+    for s in 1:S
+        v_out[s] = max(v_reject,w[s]/(1-β))
+    end
+    
+    return v_out
+end
+
+A = [1 2; 3 4]
+argmax(A)
+B=[-1 2; 10 -10]
+argmax(B)
+argmin(B)
+
+argmax(x->x^2-3*x,-10:10 )
+argmin(x->x^2-3*x,-10:10 )
+plot(x->x^2-3*x, -10:10)

@@ -10,7 +10,31 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Argmax</title>
+      <link>https://boyoon-c.github.io/posts/26/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/26/</guid>
+      <description>Today I explore argmax and argmin function defined in Base package.
+armax returns a maximal index, while argmin returns a minimal index.
+A = [1 2; 3 4] argmax(A) Output:
+CartesianIndex(2, 2) B=[-1 2; 10 -10] argmax(B) Output:
+CartesianIndex(2, 1) argmin(B) Output:
+CartesianIndex(2, 2) argmax can have a function as the first argument (say f) and the domain of the function (say x) as the second argument and it will still find a value of x that maximizes f(x) .</description>
+    </item>
+    
+    <item>
+      <title>Markov Chain (example codes)</title>
+      <link>https://boyoon-c.github.io/posts/25/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/25/</guid>
+      <description>Simulation of Markov Chain The following code excerpts are from julia.quantecon.org. I added explanations to each line of codes.
+function mc_sample_path(P; init=1, sample_size=1000) # transition matrix, P, should be a square matrix @assert size(P)[1] == size(P)[2] # N be the number of rows of P matrix (or the number of initial states) N = size(P)[1] # dists be the state transition probabilities for each initial state; for example dists[1] will be state-transition probabilities of state 1 transitioning to state 1 and 2 respectively dists = [Categorical(P[i, :]) for i in 1:N] # create X that stores samples X = fill(0, sample_size) # put init as the first element of X X[1] = init # loop over from 2 to the `sample_size` that draws randomly of states (either 1 or 2) by the last state&amp;#39;s transition distribution for t in 2:sample_size dist=dists[X[t-1]] X[t]=rand(dist) end return X end P=[0.</description>
+    </item>
+    
     <item>
       <title>AR(1) model</title>
       <link>https://boyoon-c.github.io/posts/24/</link>
