@@ -518,3 +518,20 @@ argmin(B)
 argmax(x->x^2-3*x,-10:10 )
 argmin(x->x^2-3*x,-10:10 )
 plot(x->x^2-3*x, -10:10)
+
+A = rand(5, 2,3)
+# column-wise reshape
+reshape(A, (2,3,5))
+B = rand(1,4)
+reshape(B, (2,2))
+using LinearAlgebra
+Bt=transpose(B)
+reshape(Bt, (2,2))
+
+C = [1,2,3,4,5,6]
+C′= reshape(C, (2,3))
+
+permutedims(C′, (2, 1))
+transpose(C′)
+
+permutedims(reshape(C, (3,2)), (2,1))
