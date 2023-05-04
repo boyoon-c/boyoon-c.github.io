@@ -10,7 +10,20 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-threading</title>
+      <link>https://boyoon-c.github.io/posts/28/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/28/</guid>
+      <description>How to check the number of threads Threads.nthreads() Output:
+8 For me, I have eight threads at my disposal for code execution.
+How to check thread id Threads.threadid() Output:
+1 Since we are on the master thread, Threads.threadid() will return 1.
+@threads Macro Below we create a with 10 elements in it, then use multi-threads to put thread id used to process the given for loop. To use multi-thread, we use Threads.</description>
+    </item>
+    
     <item>
       <title>reshape and permutedims</title>
       <link>https://boyoon-c.github.io/posts/27/</link>

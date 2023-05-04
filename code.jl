@@ -535,3 +535,13 @@ permutedims(C′, (2, 1))
 transpose(C′)
 
 permutedims(reshape(C, (3,2)), (2,1))
+
+Threads.nthreads()
+Threads.threadid()
+
+a = zeros(10)
+Threads.@threads for i =1:10 
+    a[i]=Threads.threadid()
+end
+
+a
