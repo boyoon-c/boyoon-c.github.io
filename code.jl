@@ -544,4 +544,30 @@ Threads.@threads for i =1:10
     a[i]=Threads.threadid()
 end
 
-a
+eng2kor=Dict()
+eng2kor["one"]="일"
+eng2kor["two"]="이"
+eng2kor
+eng2kor=Dict(
+    "one"=>"일",
+    "two"=>"이",
+    "three"=>"삼",
+    "four"=>"사"    
+)
+eng2kor
+values(eng2kor)
+keys(eng2kor)
+
+function histogram(s)
+    d = Dict()
+    for c in s
+        if c ∉ keys(d)
+            d[c] = 1
+        else
+            d[c] += 1
+        end
+    end
+    d
+end
+
+histogram("장보윤장보윤")

@@ -10,7 +10,17 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dictionaries in Julia</title>
+      <link>https://boyoon-c.github.io/posts/29/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/29/</guid>
+      <description>What comprise Dictionaries? Keys Values Example codes eng2kor=Dict( &amp;#34;one&amp;#34;=&amp;gt;&amp;#34;일&amp;#34;, &amp;#34;two&amp;#34;=&amp;gt;&amp;#34;이&amp;#34;, &amp;#34;three&amp;#34;=&amp;gt;&amp;#34;삼&amp;#34;, &amp;#34;four&amp;#34;=&amp;gt;&amp;#34;사&amp;#34; ) function histogram(s) d = Dict() for c in s if c ∉ keys(d) d[c] = 1 else d[c] += 1 end end d end Output:
+Dict{Any, Any} with 3 entries: &amp;#39;보… =&amp;gt; 2 &amp;#39;장… =&amp;gt; 2 &amp;#39;윤… =&amp;gt; 2 Reference https://benlauwens.github.io/ThinkJulia.jl/latest/book.html#_a_dictionary_is_a_mapping</description>
+    </item>
+    
     <item>
       <title>Multi-threading</title>
       <link>https://boyoon-c.github.io/posts/28/</link>
