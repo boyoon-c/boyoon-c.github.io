@@ -571,3 +571,19 @@ function histogram(s)
 end
 
 histogram("장보윤장보윤")
+
+array=[1,2,3,4,5]
+push!(array,6)
+pop!(array)
+array
+
+pop!(eng2kor, "one")
+push!(eng2kor, "four"=>"😃")
+push!(eng2kor, "five"=>"다섯")
+push!(eng2kor, "one"=>"🍔")
+eng2kor["four"]
+eng2kor
+
+a=[1,2,3,4,5]
+push!(a, 6,7)
+pop!(a)
