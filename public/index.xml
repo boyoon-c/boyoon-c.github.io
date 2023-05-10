@@ -10,11 +10,36 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The McCall Search Model</title>
+      <link>https://boyoon-c.github.io/posts/31/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/31/</guid>
+      <description>Set up To be updated
+The Value Function To be updated
+The Optimal Policy To be updated
+Implementation To be updated
+Reference https://julia.quantecon.org/dynamic_programming/mccall_model.html</description>
+    </item>
+    
+    <item>
+      <title>pop! and push!</title>
+      <link>https://boyoon-c.github.io/posts/30/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/30/</guid>
+      <description>push! Continuing on previous post, let&amp;rsquo;s start with creating an Dictionary object.
+eng2kor=Dict( &amp;#34;one&amp;#34;=&amp;gt;&amp;#34;일&amp;#34;, &amp;#34;two&amp;#34;=&amp;gt;&amp;#34;이&amp;#34;, &amp;#34;three&amp;#34;=&amp;gt;&amp;#34;삼&amp;#34;, &amp;#34;four&amp;#34;=&amp;gt;&amp;#34;사&amp;#34; ) Output:
+Dict{String, String} with 4 entries: &amp;#34;two&amp;#34; =&amp;gt; &amp;#34;이&amp;#34; &amp;#34;four&amp;#34; =&amp;gt; &amp;#34;사&amp;#34; &amp;#34;one&amp;#34; =&amp;gt; &amp;#34;일&amp;#34; &amp;#34;three&amp;#34; =&amp;gt; &amp;#34;삼&amp;#34; push! allows us to add one additional key-value pair if the added key is not present in the existing Dictionary, or if it is present, replace existing key with different value.
+# replace with existing key with different value push!</description>
+    </item>
+    
     <item>
       <title>Dictionaries in Julia</title>
       <link>https://boyoon-c.github.io/posts/29/</link>
-      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://boyoon-c.github.io/posts/29/</guid>
       <description>What comprise Dictionaries? Keys Values Example codes eng2kor=Dict( &amp;#34;one&amp;#34;=&amp;gt;&amp;#34;일&amp;#34;, &amp;#34;two&amp;#34;=&amp;gt;&amp;#34;이&amp;#34;, &amp;#34;three&amp;#34;=&amp;gt;&amp;#34;삼&amp;#34;, &amp;#34;four&amp;#34;=&amp;gt;&amp;#34;사&amp;#34; ) function histogram(s) d = Dict() for c in s if c ∉ keys(d) d[c] = 1 else d[c] += 1 end end d end Output:
