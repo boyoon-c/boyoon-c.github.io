@@ -10,18 +10,14 @@
       <link>https://boyoon-c.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://boyoon-c.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The McCall Search Model</title>
       <link>https://boyoon-c.github.io/posts/31/</link>
-      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://boyoon-c.github.io/posts/31/</guid>
-      <description>Set up To be updated
-The Value Function To be updated
-The Optimal Policy To be updated
-Implementation To be updated
-Reference https://julia.quantecon.org/dynamic_programming/mccall_model.html</description>
+      <description>Set up An agent decides whether to delay her employment later (keep searching) or take the job (settle). An agent&amp;rsquo;s action is binary (keep searching or take the job). If she takes the job, she will get constant wage indefinitely. If she rejects the job, she receives unemployment compensation c and reconsider her choice next period. The probability of observing wage offer is uniformly distributed. There are n states of wages with equal probability.</description>
     </item>
     
     <item>
