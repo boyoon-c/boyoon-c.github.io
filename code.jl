@@ -593,3 +593,7 @@ fun.([1,2], [3,4])
 fun.([1,2], Ref([3,4]))
 fun.(Ref([1,2]), [3,4])
 @. fun([1,2], [3,4])
+
+using Distributions
+n, a, b= 50, 200,100
+q_default = BetaBinomial(n, a, b).pdf() 
