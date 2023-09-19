@@ -17,7 +17,8 @@
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://boyoon-c.github.io/posts/34/</guid>
-      <description>To be updated </description>
+      <description>Introduction This note presents the Random Coefficient Logit model, often referred to as the &amp;ldquo;BLP&amp;rdquo; model, proposed by Berry et al. (1995). This model offers a method for estimating demand that considers the varying demand responses to changes in price while addressing issues related to price endoegeneity.
+Outline Begin by establishing a indirect utility function for consumer i consuming product j in market m. Transform the indirect utiltiy function into a composite of mean utility, which applies uniformly to all consumers using product j in market m, and individual-specific random components that capture consumer tastes (preferences).</description>
     </item>
     
     <item>

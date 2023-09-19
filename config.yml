@@ -73,23 +73,24 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Notes"
     Content: >
-        Welcome to Boyoon's blog. 
+        This repository houses a collection of short technical notes encompassing Julia, R, economics, and more. 
 
-        - I use this channel to post short learning notes about programming, some thoughts about artificial intelligence, and some contents about empirical industrial organization.  I also post some random thoughts about life..🫠
-
-        - 
-
-        - The posts are regularly updated so stay tuned!
+        I utilize this platform to share concise learning notes on programming, insights on artificial intelligence, and content related to empirical industrial oragnization.   
+        
 
   socialIcons:
     # - name: twitter
     #   url: "https://twitter.com/"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: homepage
+      url: "https://www.boyoonchang.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/boyoon-chang"
+    - name: email
+      url: "mailto:bchang@uoregon.edu"
 
   analytics:
     google:
