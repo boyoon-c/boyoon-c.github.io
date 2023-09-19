@@ -166,16 +166,6 @@ g(k; p) = p.A * p.s * k^p.</description>
     </item>
     
     <item>
-      <title>Ephemeral</title>
-      <link>https://boyoon-c.github.io/posts/22/</link>
-      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://boyoon-c.github.io/posts/22/</guid>
-      <description>Though it is true that we all die at some point, we often forget this truth. Maybe because thinking about it makes us too sad, makes us too depressed, makes us too afraid or other times too reckless. So most of the times, we tend to live and make decisions as if we are immortal.
-Faced with the sudden deaths of our acquaintances is when this uncomfortable truth suddenly reveals itself, sticks its heavy head out, as if scolding us for overlooking their existence.</description>
-    </item>
-    
-    <item>
       <title>Julia Essentials</title>
       <link>https://boyoon-c.github.io/posts/21/</link>
       <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
@@ -387,6 +377,15 @@ For example, below will iterate the process of summing three variables that take
       
       <guid>https://boyoon-c.github.io/posts/01/</guid>
       <description>Some random thoughts</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://boyoon-c.github.io/posts/22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://boyoon-c.github.io/posts/22/</guid>
+      <description></description>
     </item>
     
   </channel>
